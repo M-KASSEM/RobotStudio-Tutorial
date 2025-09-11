@@ -1,0 +1,16 @@
+#+TITLE: RobotStudio Learning
+#+AUTHOR: Mohammad Kassem
+#+OPTIONS: toc:nil num:nil
+#+PROPERTY: header-args :results none
+
+* Overview
+This repository documents my journey learning **ABB RobotStudio** — ABB’s
+simulation and offline programming environment for industrial robots.
+It contains practice stations, RAPID snippets, notes, and experiments.
+
+* Goals
+** TODO Get comfortable with the RobotStudio UI & navigation
+** TODO Learn core RAPID syntax and program structure
+** TODO Build simple stations and simulate toolpaths
+** TODO Work with I/O signals and Virtual Controllers
+** TODO Try path calibration and basic error handling
