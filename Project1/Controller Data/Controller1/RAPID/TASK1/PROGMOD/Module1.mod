@@ -1,0 +1,39 @@
+MODULE Module1
+    CONST robtarget Target_50:=[[199.049,214.268487273,-229.14730631],[0.694115238,-0.134922335,-0.134922335,-0.694115238],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_10:=[[99.049,275,-15],[0.707106781,0,0,-0.707106781],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_20:=[[99.049,25,-15],[0.707106781,0,0,-0.707106781],[-1,0,-1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_30:=[[299.049,25,-15],[0.707106781,0,0,-0.707106781],[0,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_40:=[[299.049,275,-15],[0.707106781,0,0,-0.707106781],[0,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    !***********************************************************
+    !
+    ! Module:  Module1
+    !
+    ! Description:
+    !   <Insert description here>
+    !
+    ! Author: moka0036
+    !
+    ! Version: 1.0
+    !
+    !***********************************************************
+    
+    
+    !***********************************************************
+    !
+    ! Procedure main
+    !
+    !   This is the entry point of your program
+    !
+    !***********************************************************
+    PROC main()
+        Path_10;
+    ENDPROC
+    PROC Path_10()
+        MoveL Target_50,v300,fine,MyTool\WObj:=Workobject_1;
+        MoveL Target_10,v300,fine,MyTool\WObj:=Workobject_1;
+        MoveL Target_20,v300,fine,MyTool\WObj:=Workobject_1;
+        MoveL Target_30,v300,fine,MyTool\WObj:=Workobject_1;
+        MoveL Target_40,v300,fine,MyTool\WObj:=Workobject_1;
+        MoveL Target_50,v300,fine,MyTool\WObj:=Workobject_1;
+    ENDPROC
+ENDMODULE
