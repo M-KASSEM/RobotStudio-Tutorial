@@ -1,0 +1,3 @@
+MODULE CalibData
+    TASK PERS wobjdata box:=[FALSE,TRUE,"",[[299.719,150.281,300],[0,0.382683432,0.923879533,0]],[[0,0,0],[1,0,0,0]]];
+ENDMODULE

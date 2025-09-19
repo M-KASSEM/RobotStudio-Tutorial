@@ -1,0 +1,39 @@
+MODULE Module1
+	PERS tooldata End_effector:=[TRUE,[[0,0,150],[1,0,0,0]],[1,[0,0,90],[1,0,0,0],0,0,0]];
+	CONST robtarget safe_position:=[[108.58,51.2,-136.74],[0.983764,-0.0899411,-0.0235383,-0.15351],[0,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	CONST robtarget p1:=[[0,0,0],[0.983764,-0.0899411,-0.0235383,-0.15351],[0,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	CONST robtarget p2:=[[300,0,0],[0.983764,-0.0899411,-0.0235383,-0.15351],[0,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	CONST robtarget p3:=[[300,200,0],[0.983764,-0.0899411,-0.0235383,-0.15351],[0,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	CONST robtarget p4:=[[0,200,0],[0.983764,-0.0899411,-0.0235383,-0.15351],[0,-1,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    !***********************************************************
+    !
+    ! Module:  Module1
+    !
+    ! Description:
+    !   <Insert description here>
+    !
+    ! Author: moka0036
+    !
+    ! Version: 1.0
+    !
+    !***********************************************************
+    
+    
+    !***********************************************************
+    !
+    ! Procedure main
+    !
+    !   This is the entry point of your program
+    !
+    !***********************************************************
+    PROC main()
+        MoveL safe_position, v1000, z50, End_effector\WObj:=box;
+        MoveL p1, v1000, z50, End_effector\WObj:=box;
+        MoveL p2, v1000, z50, End_effector\WObj:=box;
+        MoveL p3, v1000, z50, End_effector\WObj:=box;
+        MoveL p4, v1000, z50, End_effector\WObj:=box;
+        MoveL p1, v1000, z50, End_effector\WObj:=box;
+        MoveL safe_position, v1000, z50, End_effector\WObj:=box;
+        !Add your code here
+    ENDPROC
+ENDMODULE
