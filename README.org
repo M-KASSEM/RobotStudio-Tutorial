@@ -9,8 +9,8 @@ simulation and offline programming environment for industrial robots.
 It contains practice stations, RAPID snippets, notes, and experiments.
 
 * Goals
--[x] Get comfortable with the RobotStudio UI & navigation
--[x] Learn core RAPID syntax and program structure
--[x] Build simple stations and simulate toolpaths
--[x] Work with I/O signals and Virtual Controllers
--[x] Try path calibration and basic error handling
+- [x] [x] [x] Get comfortable with the RobotStudio UI & navigation
+- [x] [x] [x] Learn core RAPID syntax and program structure
+- [x] [x] [x] Build simple stations and simulate toolpaths
+- [x] [x] [x] Work with I/O signals and Virtual Controllers
+- [x] [x] [x] Try path calibration and basic error handling
